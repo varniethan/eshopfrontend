@@ -1,42 +1,43 @@
 // Import MongoClient, express
 const express = require("express");
-const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
+var cors = require("cors");
 
 // start express instance
 const app = express();
-
+const bp = require("body-parser");
 // add items routes
-app.use("/", require("./routes/items").router);
+// app.use("/", require("./routes/items"));
+app.use(bp.json());
+app.use(bp.urlencoded({ extended: true }));
+// import items functions
+const itemsFunctions = require("./database/items");
 
-// import all schemas
-const userSchema = require("./schemas/userSchema");
-const shopSchema = require("./schemas/shopSchema");
-const itemSchema = require("./schemas/itemSchema");
-const reviewSchema = require("./schemas/reviewSchema");
-
-// create models with the schemas
-const User = mongoose.model("User", userSchema);
-const Shop = mongoose.model("Shop", shopSchema);
-const Item = mongoose.model("Item", itemSchema);
-const Review = mongoose.model("Review", reviewSchema);
-
-// const valid = new_user.validate((e) => {
-//   if (e) {
-//     console.log(e);
-//   } else {
-//     console.log("success");
-//   }
-// });
-
+// extract all items functions
+const findItemInDB = itemsFunctions.findItemInDB;
+const insertItemIntoDB = itemsFunctions.insertItemIntoDB;
+const updateItemInDB = itemsFunctions.updateItemInDB;
+const deleteItemFromDB = itemsFunctions.deleteItemFromDB;
 require("dotenv").config();
 
 // configuring express to use body-parser as middle-ware
 // for passing json data for post requests
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+// app.use(function(req, res, next) {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//   next();
+// });
+app.post("/post/item", async (req, res) => {
+	console.log("request body: ", req.body);
+	let response = await insertItemIntoDB(req.body);
+	console.log(response)
+	res.send(response);
+});
 
+// app.use(express.json());
+// app.use(cors({
+//   origin: "http://localhost:5500"
+// }));
 // start express server
 app.listen(process.env.PORT, function () {
-  console.log(`Example app listening on port ${process.env.PORT}!`);
+	console.log(`Example app listening on port ${process.env.PORT}!`);
 });
