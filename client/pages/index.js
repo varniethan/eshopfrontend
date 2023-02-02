@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import ClientLogoSlider from "../src/components/ClientLogoSlider";
 import { HomeSlider1 } from "../src/components/HomeSlider";
 import  Carousel  from "../src/components/Carousel";
+import  PromotionBanner  from "../src/components/PromotionBanner";
 import CustomerReviews from "../src/components/slider/CustomerReviews";
 import PhotoGallery from "../src/components/slider/PhotoGallery";
 import Layout from "../src/layout/Layout";
@@ -135,6 +136,23 @@ const Index = () => {
         </div>
       </section>
       {/* Offer Banners End */}
+      
+      <br/>
+      <br/>
+      <br/>
+
+      {/*Promotion Banner Start */}
+      <section className="cta-area">
+        <div className="container">
+          <PromotionBanner />
+        </div>
+      </section>
+      
+      <br/>
+      <br/>
+      
+
+      {/*Promotion Banner End */}
 
       {/* Special Offer Start */}
       <section className="special-offer-three">
@@ -178,11 +196,10 @@ const Index = () => {
       </section>
       {/* Special Offer End */}
      
-      
+     <br/>
+     <br/>
+     <br/>
 
-     
-
-     
 
 
       {/* Call To Action Area Start */}
@@ -212,6 +229,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <br/>
+     
       {/* Call To Action Area End */}
 
     </Layout>

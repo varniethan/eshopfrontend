@@ -29,36 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/cart": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/cart.js"
-    ],
-    "/checkout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/checkout.js"
-    ],
-    "/product-details": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/product-details.js"
-    ],
-    "/shop-left-sidebar": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/shop-left-sidebar.js"
-    ],
-    "/shop-right-sidebar": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/shop-right-sidebar.js"
-    ],
-    "/wishlist": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/wishlist.js"
     ]
   },
   "ampFirstPages": []

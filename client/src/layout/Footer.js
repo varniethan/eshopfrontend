@@ -31,7 +31,7 @@ const ScrollTopBtn = () => {
 };
 
 const DefaultFooter = () => (
-  <footer className="main-footer bg-green text-white">
+  <footer className="main-footer bg-lighter text-black">
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-lg-4 col-md-6 order-md-2">

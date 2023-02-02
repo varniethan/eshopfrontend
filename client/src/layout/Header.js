@@ -296,9 +296,486 @@ const Header1 = () => (
     <br/>
 
     {/*Header-Upper*/}
-    <header className="main-header header-three menu-absolute">
-      
-        <div className="search-header container-fluid clearfix">
+    {/* <header className="main-header header-three menu-absolute"> */} 
+    <div id="sc4">
+        <div id="sc41">
+          <a href="">
+              <p> Home </p>
+          </a>
+      </div>
+      <div id="sc42">
+          <a href="">
+              <p>Saved </p>
+          </a>
+      </div>
+      <div id="sc43">
+          <a href="MElectronics.html">
+              <p onclick="">Electronics</p>
+          </a>
+
+          <div id="sc431">
+              <div>
+                  <h3>Most popular categories</h3>
+                  <hr/>
+                  <a href="#">
+                      <p class="shubham11">Cell phones and accessories</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Video games and consoles</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Computers and tablets</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Cameras and photos</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Camera drones</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Asian Brands</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Smart home</p>
+                  </a>
+              </div>
+
+
+
+
+              <div>
+                  <h3>More categories</h3>
+                  <hr/>
+                  <a href="#">
+                      <p class="shubham11">Apple</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Samsung</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Xiaomi</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Portable audio and headphones</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Smart watches</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Deals</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Sell on eBay</p>
+                  </a>
+              </div>
+              <div>
+                  <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19392.jpeg" alt=""/>
+              </div>
+
+          </div>
+      </div>
+      <div id="sc44">
+          <a href="MFashion.html">
+              <p>Fashion</p>
+          </a>
+          <div id="sc441">
+              <div>
+                  <h3>Most popular categories</h3>
+                  <hr/>
+                  <a href="#">
+                      <p class="shubham11">Footwear </p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Women's clothing</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Footwear for women</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Clothes for men</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Men's footwear</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Watches</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Jewelry</p>
+                  </a>
+              </div>
+
+
+              <div>
+                  <h3>More categories</h3>
+                  <hr/>
+                  <a href="#">
+                      <p class="shubham11">Accessories for men</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Accessories for women</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Bags and wallets for women</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Mens sunglasses</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Womens sunglasess</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Sneakers</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Deals </p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Sell on eBay</p>
+                  </a>
+
+              </div>
+              <div>
+                  <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19393-v2.jpeg" alt=""/>
+              </div>
+          </div>
+      </div>
+      <div id="sc45">
+          <a href="beauty.html">
+              <p>Health & Beauty</p>
+          </a>
+          <div id="sc451">
+              <div>
+                  <h3>Most popular categories</h3>
+                  <hr/>
+                  <a href="beauty.html">
+                      <p class="shubham11">Beauty</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Makeup</p>
+                  </a>
+                  <a href="health.html">
+                      <p class="shubham11">Health</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">K-Beauty</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11"> Manicure and pedicure</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Hair products</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Skin products</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Orthopedic products</p>
+                  </a>
+
+              </div>
+              <div>
+                  <h3>More categories</h3>
+                  <hr/>
+                  <a href="#">
+                      <p class="shubham11">Vitamins and food supplements</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Shaving and waxing</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11"> Bath and personal hygiene</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Oral hygiene</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Massagers</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Deals</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Sell on eBay</p>
+                  </a>
+              </div>
+              <div>
+                  <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19394.jpeg" alt=""/>
+              </div>
+
+          </div>
+      </div>
+      <div id="sc46">
+          <a href="">
+              <p>Home & Garden</p>
+          </a>
+          <div id="sc461">
+
+              <div>
+                  <h3>Most popular categories</h3>
+                  <hr/>
+                  <a href="#">
+                      <p class="shubham11">Workshop Tools and Equipment</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Patio, garden and outdoors</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Home improvement</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Kitchen, dining and bar</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Lamps, lights and fans</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Interior decoration</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Home organization</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Home appliances</p>
+                  </a>
+
+              </div>
+              <div>
+                  <h3>More categories</h3>
+                  <hr/>
+                  <a href="#">
+                      <p class="shubham11">Toys</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Pets</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Crafts</p>
+                  </a>
+                  <a href="moniArt.html">
+                      <p class="shubham11">Art supplies</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Musical instruments</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Jewelry and beads</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Deals</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Sell on eBay</p>
+                  </a>
+
+              </div>
+              <div>
+                  <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19395.jpeg" alt=""/>
+              </div>
+
+          </div>
+      </div>
+      <div id="sc47">
+          <a href="cycling.html">
+              <p>Sports</p>
+          </a>
+          <div id="sc471">
+
+              <div>
+                  <h3>Most popular categories</h3>
+                  <hr/>
+                  <a href="#">
+                      <p class="shuhbam11">Cycling</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Fitness, running and yoga</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Fitness Tech</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Fishing</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Camping</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Scooters</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Team sports</p>
+                  </a>
+              </div>
+              <div>
+                  <h3>More categories</h3>
+                  <hr/>
+                  <a href="#">
+                      <p class="shuhbam11">Watersports</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Winter sports</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Box and MMA</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Swimming</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">GPS & Running Watches</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Garmin</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Deals</p>
+                  </a>
+                  <a href="#">
+                      <p class="shuhbam11">Sell on eBay</p>
+                  </a>
+
+              </div>
+              <div>
+                  <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19396.jpeg" alt=""/>
+              </div>
+
+          </div>
+      </div>
+      <div id="sc48">
+          <a href="">
+              <p>Collectibles and Art</p>
+          </a>
+          <div id="sc481">
+
+              <div>
+                  <h3>Most popular categories</h3>
+                  <hr/>
+                  <a href="collectiblesAndArt.html">
+                      <p>Collectibles</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Art</p>
+                  </a>
+                  <a href="actionAndFigure.html">
+                      <p>Action figures</p>
+                  </a>
+                  <a href="collectibles.html">
+                      <p>Cartoon characters</p>
+                  </a>
+                  <a href="entertainment.html">
+                      <p>Movie and TV characters</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Diecast</p>
+                  </a>
+                  <a href="recordAndPlayer.html">
+                      <p>Musical memorabilia</p>
+                  </a>
+              </div>
+              <div>
+                  <h3>More categories</h3>
+                  <hr/>
+                  <a href="actionAndFigure.html">
+                      <p>Sports memorabilia</p>
+                  </a>
+                  <a href="actionAndFigure.html">
+                      <p>Trading card games</p>
+                  </a>
+                  <a href="antiques.html">
+                      <p>Antiques</p>
+                  </a>
+                  <a href="comics.html">
+                      <p>Comics</p>
+                  </a>
+                  <a href="stamps.html">
+                      <p>Funko pop</p>
+                  </a>
+                  <a href="vintage.html">
+                      <p>Deals</p>
+                  </a>
+                  <a href="#">
+                      <p class="shubham11">Sell on eBay</p>
+                  </a>
+              </div>
+              <div>
+                  <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19393-v2.jpeg" alt=""/>
+              </div>
+
+          </div>
+      </div>
+      <div id="sc5">
+          <a href="Nandudeals.html">
+              <p>Deals</p>
+          </a>
+      </div>
+      <div id="sc53">
+          <a href="Sell.html">
+              <p>Sell</p>
+          </a>
+          <div id="sc531">
+
+              <div>
+                  <h3></h3>
+                  <hr/>
+                  <a href="">
+                      <p>Create listing</p>
+                  </a>
+                  <a href="">
+                      <p>Apply as a business</p>
+                  </a>
+                  <a href="">
+                      <p>Seller center</p>
+                  </a>
+                  <a href="">
+                      <p></p>
+                  </a>
+                  <a href="">
+                      <p></p>
+                  </a>
+                  <a href="">
+                      <p></p>
+                  </a>
+                  <a href="">
+                      <p></p>
+                  </a>
+              </div>
+              <div>
+                  <h3> </h3>
+                  <hr/>
+                  <a href="">
+                      <p> </p>
+                  </a>
+                  <a href="">
+                      <p> </p>
+                  </a>
+                  <a href="">
+                      <p></p>
+                  </a>
+                  <a href="">
+                      <p></p>
+                  </a>
+                  <a href="">
+                      <p></p>
+                  </a>
+                  <a href="">
+                      <p></p>
+                  </a>
+                  <a href="">
+                      <p></p>
+                  </a>
+              </div>
+              <div>
+                  <img src="https://ir.ebaystatic.com/cr/v/c1/NAO-45026-19400.jpeg" alt=""/>
+              </div>
+
+          </div>
+      </div>
+    </div>
+
+    <div id="sc3">
+    <hr/>
+    </div>
+        {/* <div className="search-header container-fluid clearfix">
           <div className="header-inner d-flex align-items-center">
               <div class="container">
                 <div class="row">
@@ -342,18 +819,19 @@ const Header1 = () => (
                     Local
                   </div>
                 </div>
-              </div>
+              </div> */}
            
             {/* menu sidbar */}
-          </div>
+          {/* </div>
           <br/>
         
-      </div>
+      </div> */}
     {/*End Header Upper*/}
-    </header>
-
+    {/* </header> */}
   </header>
 );
+
+          
 const Header2 = () => (
   <header className="main-header header-two">
     <div className="header-top-wrap">

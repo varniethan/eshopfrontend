@@ -43,45 +43,6 @@ const PopularProducts = () => {
             <h2>Recomended for you</h2>
           </div>
         </div>
-        <div className="col-lg-6 text-lg-right wow fadeInUp delay-0-4s">
-          <ul className="popular-products-filter filter-btns-one mb-20">
-            <li
-              data-filter="*"
-              className={`c-pointer ${activeBtn("*")}`}
-              onClick={handleFilterKeyChange("*")}
-            >
-              Show All
-            </li>
-            <li
-              data-filter=".vegetables"
-              className={`c-pointer ${activeBtn("vegetables")}`}
-              onClick={handleFilterKeyChange("vegetables")}
-            >
-              Vegetables
-            </li>
-            <li
-              data-filter=".fruits"
-              className={`c-pointer ${activeBtn("fruits")}`}
-              onClick={handleFilterKeyChange("fruits")}
-            >
-              Fruits
-            </li>
-            <li
-              data-filter=".bread"
-              className={`c-pointer ${activeBtn("bread")}`}
-              onClick={handleFilterKeyChange("bread")}
-            >
-              Bread &amp; Cakes
-            </li>
-            <li
-              data-filter=".seafish"
-              className={`c-pointer ${activeBtn("seafish")}`}
-              onClick={handleFilterKeyChange("seafish")}
-            >
-              Sea Fish
-            </li>
-          </ul>
-        </div>
       </div>
       <div className="row popular-products-active">
         <div className="col-xl-3 col-lg-4 col-sm-6 item fruits bread">
