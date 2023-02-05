@@ -294,7 +294,9 @@ const Header1 = () => (
     </section>
     {/*END Big Search Box*/}
     <br/>
-
+    <div id="sc3">
+        <hr/>
+      </div>
     {/*Header-Upper*/}
     {/* <header className="main-header header-three menu-absolute"> */} 
     <div id="sc4">

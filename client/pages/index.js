@@ -35,9 +35,9 @@ const Index = () => {
         <Carousel />
       </section>
       {/*End Offer Images */}
-
-       
-
+      <div id="sc3">
+        <hr/>
+      </div>
 
       {/* Product Section Start */}
       <section className="shop-area-three rel z-1 py-50">
@@ -46,7 +46,9 @@ const Index = () => {
         </div>
       </section>
       {/* Product Section End */}
-
+      <div id="sc3">
+        <hr/>
+      </div>
       {/* Offer Banners Start */}
       <section className="offer-banners-area">
         <div className="container-fluid">
@@ -136,7 +138,9 @@ const Index = () => {
         </div>
       </section>
       {/* Offer Banners End */}
-      
+      <div id="sc3">
+        <hr/>
+      </div>
       <br/>
       <br/>
       <br/>

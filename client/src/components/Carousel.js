@@ -12,7 +12,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://i.ebayimg.com/thumbs/images/g/sTIAAOSwi-5j0BOK/s-l1200.webp"
+          src="https://i.ebayimg.com/images/g/QCgAAOSwI85j0kpc/s-l1600.webp"
           alt="First slide"
         />
         <Carousel.Caption>

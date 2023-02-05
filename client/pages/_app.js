@@ -23,6 +23,8 @@ function MyApp({ Component, pageProps }) {
         />
         {/* Flaticon */}
         <link rel="stylesheet" href="assets/css/flaticon.min.css" />
+        {/* Favicon */}
+        {/* <script src="https://kit.fontawesome.com/1cb0bb75dc.js" crossorigin="anonymous"></script> */}
         {/* Font Awesome */}
         <link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css" />
         {/* Bootstrap */}
@@ -37,6 +39,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="assets/css/slick.min.css" />
         {/* Main Style */}
         <link rel="stylesheet" href="assets/css/style.css" />
+         {/* Main Style */}
+         <link rel="stylesheet" href="assets/css/custom.css" />
       </Head>
       <Component {...pageProps} />
     </Fragment>

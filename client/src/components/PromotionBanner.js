@@ -2,7 +2,12 @@ import Card from 'react-bootstrap/Card';
 
 function PromotionBanner() {
   return (
-    <Card>
+    <Card
+    bg={'Primary'.toLowerCase()}
+    key={'Primary'}
+    text={'Primary'.toLowerCase() === 'light' ? 'dark' : 'white'}
+    className="mb-2"
+    >
      <Card.Body>
         <Card.Title>Save up to 20% with warehouse clearance!</Card.Title>
         <Card.Text>
