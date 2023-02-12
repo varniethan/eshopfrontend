@@ -38,7 +38,58 @@ const Index = () => {
       <div id="sc3">
         <hr/>
       </div>
-
+      {/* Feature Area Start */}
+        <section className="feature-three-area pb-40">
+        <div className="container-fluid">
+          <div className="feature-three-inner">
+            <div className="feature-two-item wow fadeInUp delay-0-2s">
+              <div className="icon">
+                <i className="flaticon-delivery-man" />
+              </div>
+              <div className="content">
+                <h4>
+                  <Link href="/service-details">Not Free Shipping</Link>
+                </h4>
+                <p>Over $90 For Free Shipping</p>
+              </div>
+            </div>
+            <div className="feature-two-item wow fadeInDown delay-0-4s">
+              <div className="icon">
+                <i className="flaticon-offer" />
+              </div>
+              <div className="content">
+                <h4>
+                  <Link href="/service-details">Return Policy</Link>
+                </h4>
+                <p>Dedicated Support</p>
+              </div>
+            </div>
+            <div className="feature-two-item wow fadeInUp delay-0-6s">
+              <div className="icon">
+                <i className="flaticon-24-hours" />
+              </div>
+              <div className="content">
+                <h4>
+                  <Link href="/service-details">Online Support</Link>
+                </h4>
+                <p>24/7 Hours Online Support</p>
+              </div>
+            </div>
+            <div className="feature-two-item wow fadeInDown delay-0-8s">
+              <div className="icon">
+                <i className="flaticon-quote" />
+              </div>
+              <div className="content">
+                <h4>
+                  <Link href="/service-details">Smart Discount</Link>
+                </h4>
+                <p>Every Product We Provide Discount</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+      {/* Feature Area End */}
       {/* Product Section Start */}
       <section className="shop-area-three rel z-1 py-50">
         <div className="container-fluid">
@@ -46,6 +97,7 @@ const Index = () => {
         </div>
       </section>
       {/* Product Section End */}
+      
       <div id="sc3">
         <hr/>
       </div>

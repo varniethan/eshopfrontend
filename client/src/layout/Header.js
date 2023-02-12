@@ -133,6 +133,19 @@ const Nav = () => {
 
 const DefaultHeader = () => (
   <header className="main-header">
+    <div className="header-top-wrap bgc-primary py-10">
+      <div className="container-fluid">
+        <div className="header-top px-0">
+          <ul>
+            <li>25% OFF Upcoming Product</li>
+            <li>100% Fresh &amp; natural foods</li>
+            <li>free shipping over $99</li>
+            <li>money back guarantee</li>
+            <li>cash on delivery</li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div className="header-top-wrap bg-light-green text-white py-10">
       <div className="container-fluid">
         <div className="header-top">
@@ -237,7 +250,20 @@ const DefaultHeader = () => (
   </header>
 );
 const Header1 = () => (
-  <header className="main-header menu-absolute">
+  <header className="main-header header-three menu-absolute">
+    <div className="header-top-wrap bgc-primary py-10">
+      <div className="container-fluid">
+        <div className="header-top px-0">
+          <ul>
+            <li>25% OFF Upcoming Product</li>
+            <li>100% Fresh &amp; natural foods</li>
+            <li>free shipping over $99</li>
+            <li>money back guarantee</li>
+            <li>cash on delivery</li>
+          </ul>
+        </div>
+      </div>
+    </div>
     {/*Header-Upper*/}
     <div className="header-upper">
       <div className="container-fluid clearfix">
