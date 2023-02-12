@@ -255,7 +255,7 @@ const Index = () => {
         </div>
       </section>
       {/* Special Offer End */}
-     
+      <br/>
      
       
       {/* Feedback Section Start */}
@@ -269,6 +269,7 @@ const Index = () => {
         <FeedbackTwoSlider />
       </section>
       {/* Feedback Section End */}
+      <br/>
       {/* Client Logo Section Start */}
       <div className="client-logo-section text-center bg-light-green py-60">
         <div className="container">
@@ -307,12 +308,11 @@ const Index = () => {
           />
         </div>
       </div>
-      {/* <br/>
+      <br/>
      <br/>
-     <br/> */}
-
+     <br/> 
       {/* Call To Action Area Start */}
-      {/* <section className="cta-area">
+      /* <section className="cta-area">
         <div className="container">
           <div
             className="cta-inner overlay text-white wow fadeInUp delay-0-2s"
@@ -337,7 +337,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>*/}
+      </section>
       <br/> 
      
       {/* Call To Action Area End */}

@@ -3,7 +3,7 @@ import Layout from "../src/layout/Layout";
 const ContactUs = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Contact Us"} />{" "}
+      {/* <PageBanner pageName={"Contact Us"} />{" "} */}
       <section className="contact-info-area rel z-1 pt-130 rpt-100">
         <div className="container">
           <div className="section-title contact-title mb-50 wow fadeInUp delay-0-2s">
