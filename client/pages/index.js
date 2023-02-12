@@ -6,6 +6,7 @@ import ClientLogoSlider from "../src/components/ClientLogoSlider";
 import { HomeSlider1 } from "../src/components/HomeSlider";
 import  Carousel  from "../src/components/Carousel";
 import  PromotionBanner  from "../src/components/PromotionBanner";
+import FeedbackTwoSlider from "../src/components/FeedbackTwoSlider";
 import CustomerReviews from "../src/components/slider/CustomerReviews";
 import PhotoGallery from "../src/components/slider/PhotoGallery";
 import Layout from "../src/layout/Layout";
@@ -90,8 +91,11 @@ const Index = () => {
         </div>
         </section>
       {/* Feature Area End */}
+      <div id="sc3">
+        <hr/>
+      </div>
       {/* Product Section Start */}
-      <section className="shop-area-three rel z-1 py-50">
+      <section className="offer-banners-area">
         <div className="container-fluid">
           <PopularProducts />
         </div>
@@ -104,13 +108,13 @@ const Index = () => {
       {/* Offer Banners Start */}
       <section className="offer-banners-area">
         <div className="container-fluid">
-        <div className="col-lg-6 wow fadeInUp delay-0-2s">
-          <div className="section-title mb-20">
-            <span className="sub-title mb-20">Find great deals</span>
-            <h2>Deals for you</h2>
+          <div className="col-lg-6 wow fadeInUp delay-0-2s">
+            <div className="section-title mb-20">
+              <span className="sub-title mb-20">Find great deals</span>
+              <h2>Deals for you</h2>
+            </div>
           </div>
-        </div>
-        <div className="row">
+          <div className="row">
             <div className="col-xl-4 col-md-6">
               <div className="offer-banner-item color-two wow fadeInUp delay-0-2s">
                 <div className="content">
@@ -252,14 +256,63 @@ const Index = () => {
       </section>
       {/* Special Offer End */}
      
+     
+      
+      {/* Feedback Section Start */}
+      <section className="feedback-section pt-100 rpt-70">
+        <div className="container">
+          <div className="section-title text-center mb-60">
+            <span className="sub-title mb-20">Customer Reviews</span>
+            <h2>Valuable Customer’s Feedback</h2>
+          </div>
+        </div>
+        <FeedbackTwoSlider />
+      </section>
+      {/* Feedback Section End */}
+      {/* Client Logo Section Start */}
+      <div className="client-logo-section text-center bg-light-green py-60">
+        <div className="container">
+          <ClientLogoSlider />
+        </div>
+        <div className="client-logo-shapes">
+          <img
+            className="shape-one"
+            src="assets/images/shapes/cl-shape1.png"
+            alt="Shape"
+          />
+          <img
+            className="shape-two"
+            src="assets/images/shapes/cl-shape2.png"
+            alt="Shape"
+          />
+          <img
+            className="shape-three"
+            src="assets/images/shapes/cl-shape3.png"
+            alt="Shape"
+          />
+          <img
+            className="shape-four"
+            src="assets/images/shapes/cl-shape4.png"
+            alt="Shape"
+          />
+          <img
+            className="shape-five"
+            src="assets/images/shapes/cl-shape5.png"
+            alt="Shape"
+          />
+          <img
+            className="shape-six"
+            src="assets/images/shapes/cl-shape6.png"
+            alt="Shape"
+          />
+        </div>
+      </div>
+      {/* <br/>
      <br/>
-     <br/>
-     <br/>
-
-
+     <br/> */}
 
       {/* Call To Action Area Start */}
-      <section className="cta-area">
+      {/* <section className="cta-area">
         <div className="container">
           <div
             className="cta-inner overlay text-white wow fadeInUp delay-0-2s"
@@ -284,8 +337,8 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
-      <br/>
+      </section>*/}
+      <br/> 
      
       {/* Call To Action Area End */}
 

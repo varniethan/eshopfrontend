@@ -132,7 +132,7 @@ const Nav = () => {
 };
 
 const DefaultHeader = () => (
-  <header className="main-header">
+  <header className="main-header header-three menu-absolute">
     <div className="header-top-wrap bgc-primary py-10">
       <div className="container-fluid">
         <div className="header-top px-0">
@@ -143,54 +143,6 @@ const DefaultHeader = () => (
             <li>money back guarantee</li>
             <li>cash on delivery</li>
           </ul>
-        </div>
-      </div>
-    </div>
-    <div className="header-top-wrap bg-light-green text-white py-10">
-      <div className="container-fluid">
-        <div className="header-top">
-          <div className="row">
-            <div className="col-xl-7 col-lg-6">
-              <div className="top-left">
-                <ul>
-                  <li>
-                    <i className="far fa-envelope" /> <b>Email Us :</b>{" "}
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
-                  </li>
-                  <li>
-                    <i className="far fa-clock" /> <b>Working Hours :</b> Monday
-                    - Friday, 08 am - 05 pm
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-5 col-lg-6">
-              <div className="top-right text-lg-right">
-                <ul>
-                  <li>
-                    <i className="far fa-phone" /> <b>Call :</b>{" "}
-                    <a href="callto:+012(345)67899">+012 (345) 678 99</a>
-                  </li>
-                  <li>
-                    <div className="social-style-one">
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-youtube" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -213,40 +165,42 @@ const DefaultHeader = () => (
           </div>
           <div className="nav-outer clearfix">
             {/* Main Menu */}
-            <Nav />
+
             {/* Main Menu End*/}
           </div>
           {/* Menu Button */}
           <div className="menu-icons">
-            {/* Nav Search */}
-            <div className="nav-search py-15">
-              <SearchBtn />
-            </div>
+          <button>
+              Sell
+            </button>
+            <button className="heart">
+              <i className="far fa-heart" />
+            </button>
             <button className="cart">
               <i className="far fa-shopping-basket" />
               <span>5</span>
             </button>
+            <button className="bell">
+              <i className="far fa-bell" />
+            </button>
             <button className="user">
               <i className="far fa-user-circle" />
             </button>
-            <Link href="/contact">
-              <a className="theme-btn">
-                Consultations <i className="fas fa-angle-double-right" />
-              </a>
-            </Link>
-            {/* menu sidbar */}
-            <div className="menu-sidebar" onClick={() => sidebarToggle()}>
-              <button>
-                <i className="far fa-ellipsis-h" />
-                <i className="far fa-ellipsis-h" />
-                <i className="far fa-ellipsis-h" />
-              </button>
-            </div>
           </div>
         </div>
       </div>
     </div>
     {/*End Header Upper*/}
+
+    
+    {/*Start Big Search Box*/}
+    <section>
+      <br/>
+      <br/>
+      <br/>
+      <Searchbar/>
+    </section>
+    {/*END Big Search Box*/}
   </header>
 );
 const Header1 = () => (
